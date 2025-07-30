@@ -1,0 +1,86 @@
+/* Background for whole page */
+.bg {
+  background-color: rgb(227, 244, 171);
+  min-height: 100vh;
+}
+
+.bg-container {
+  background-image: linear-gradient(to bottom right, #5A827E, #84AE92, #B9D4AA, #FAFFCA);
+  background-size: cover;
+  border-radius: 12px;
+  padding: 40px 20px;
+}
+
+/* Heading style */
+.heading {
+  font-size: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  color: black;
+}
+
+/* Caption style */
+.cap {
+  font-size: 18px;
+  font-family: 'Brush Script MT', cursive;
+  color: rgb(68, 70, 70);
+}
+.todo-user-input {
+  background-color: white;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e4e7eb;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 15px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.label-container {
+  background-image:linear-gradient(to left,#ada996,#f2f2f2,#dbdbdb,#eaeaea);
+  width: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-color:rgb(86, 81, 82);
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 4px;
+  margin:2px;
+}
+
+
+.checkbox-input {
+  width: 20px;
+  height: 20px;
+  margin-top: 12px;
+  margin-right: 12px;
+}
+
+.checkbox-label {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  width: 82%;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
+.delete-icon-container {
+  text-align: right;
+  width: 18%;
+}
+
+.delete-icon {
+  padding: 15px;
+}
+.checked {
+  text-decoration: line-through;
+}
